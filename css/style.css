@@ -66,7 +66,7 @@ textarea {
   font-size: 6rem;
   text-transform: uppercase;
   letter-spacing: 3px;
-  text-align: center; }
+  text-align: right; }
   @media only screen and (max-width: 37.5em) {
     .heading-primary {
       font-size: 4.5rem; } }
@@ -173,7 +173,7 @@ textarea {
 .text-primary {
   color: #fff;
   font-size: 2.2rem;
-  text-align: center;
+  text-align: right;
   width: 100%;
   line-height: 1.6; }
   @media only screen and (max-width: 37.5em) {
@@ -188,23 +188,17 @@ textarea {
   height: 100vh;
   min-height: 80rem;
   max-height: 120rem;
-  position: relative; }
+  position: relative;
+  background: url("../../assets/jpeg/hero-image-2-30pc.jpg") rgba(255, 255, 255, 0.7);
+  background-position: right;
+  background-size: cover; }
   @media only screen and (max-width: 37.5em) {
     .home-hero {
       height: unset;
-      min-height: unset; } }
-  .home-hero__background {
-    color: #fff;
-    height: 100vh;
-    min-height: 80rem;
-    max-height: 120rem;
-    background: url("../../assets/jpeg/hero-image-1-30pc.jpg") rgba(255, 255, 255, 0.7);
-    background-position: center;
-    background-size: cover;
-    background-blend-mode: screen;
-    filter: blur(2px); }
+      min-height: unset;
+      background-position: center; } }
   .home-hero__socials {
-    position: absolute;
+    position: fixed;
     top: 50%;
     border: 2px solid #eee;
     border-left: 2px solid #eee;
@@ -249,11 +243,16 @@ textarea {
         position: static;
         transform: translate(0, 0); } }
   .home-hero__info {
-    margin: 3rem auto 0 auto;
-    max-width: 80rem; }
+    margin: 3rem auto 0 auto; }
   .home-hero__cta {
     margin-top: 5rem;
-    text-align: center; }
+    text-align: right; }
+    @media only screen and (max-width: 37.5em) {
+      .home-hero__cta {
+        text-align: center;
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto; } }
 
 .about {
   background: #fafafa; }
@@ -615,6 +614,9 @@ textarea {
     border-top: 1px solid #eee; }
   .header__sm-menu-link-last {
     border-bottom: 0; }
+  .header__social-cont {
+    display: flex;
+    margin-left: 3rem; }
 
 .main-footer {
   background: #000;
