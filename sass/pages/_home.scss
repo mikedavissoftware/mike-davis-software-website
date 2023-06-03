@@ -109,9 +109,18 @@
     &-title {
       font-weight: 700;
       font-size: 2.8rem;
-      margin-bottom: 3rem;
+      margin-bottom: 1rem;
       @include respond(phone) {
         font-size: 2.4rem;
+      }
+    }
+    &-subtitle {
+      color: rgb(169, 169, 169);
+      font-weight: 700;
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      @include respond(phone) {
+        font-size: 1.5rem;
       }
     }
     &-details-para {

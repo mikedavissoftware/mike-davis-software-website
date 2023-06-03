@@ -67,14 +67,14 @@ p > a {
   text-decoration: underline;
 }
 p > a:link {
-  color: white;
+  color: $themeClrPrimary;
 }
 p > a:visited {
-  color: #676559;
+  color: $themeClrPrimary;
 }
 p > a:hover {
-  color: #a0764c;
+  color: white;
 }
 p > a:active {
-  color: #1d8388;
+  color: $themeClrSecondary;
 }
