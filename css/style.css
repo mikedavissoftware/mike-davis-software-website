@@ -63,6 +63,21 @@ button {
 textarea {
   resize: none; }
 
+p > a {
+  text-decoration: underline; }
+
+p > a:link {
+  color: white; }
+
+p > a:visited {
+  color: #676559; }
+
+p > a:hover {
+  color: #a0764c; }
+
+p > a:active {
+  color: #1d8388; }
+
 .heading-primary {
   font-size: 6rem;
   text-transform: uppercase;
