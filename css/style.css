@@ -12,6 +12,7 @@ $breakpoint arguement choices:
 
 Inside media queries 1em is always 16px i.e 1em = 16px at every screen size only inside media queries
 */
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 *,
 *::after,
 *::before {
@@ -69,7 +70,16 @@ textarea {
   text-align: right; }
   @media only screen and (max-width: 37.5em) {
     .heading-primary {
-      font-size: 4.5rem; } }
+      font-size: 4rem; } }
+
+.heading-perm {
+  font-family: "Permanent Marker", cursive;
+  font-size: 6rem;
+  letter-spacing: 3px;
+  text-align: right; }
+  @media only screen and (max-width: 37.5em) {
+    .heading-perm {
+      font-size: 4rem; } }
 
 .heading-sec__mb-bg {
   margin-bottom: 11rem; }
