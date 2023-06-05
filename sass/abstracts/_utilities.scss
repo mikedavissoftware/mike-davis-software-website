@@ -77,6 +77,8 @@
     font-weight: 500;
     max-width: 80rem;
     margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     line-height: 1.6;
 
     @include respond(phone) {
@@ -117,6 +119,7 @@
   }
 
   &--bg {
+    background-color: $themeClrPrimary;
     padding: 1.5rem 8rem;
     font-size: 2rem;
   }
@@ -124,7 +127,6 @@
     padding: 1.5rem 5rem;
     font-size: 1.6rem;
   }
-
   &--theme {
     background: $themeClrPrimary;
     color: #fff;
@@ -135,6 +137,13 @@
     border: 2px solid $themeClrPrimary;
     box-shadow: none;
     padding: calc(1.5rem - 2px) calc(5rem - 2px);
+  }
+  &--center {
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
   }
 }
 

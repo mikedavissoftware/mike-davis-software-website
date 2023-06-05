@@ -78,6 +78,19 @@ p > a:hover {
 p > a:active {
   color: #95734d; }
 
+hr {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 10%;
+  color: #009405;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  border-color: #009405; }
+
 .heading-primary {
   font-size: 6rem;
   text-transform: uppercase;
@@ -144,6 +157,8 @@ p > a:active {
   font-weight: 500;
   max-width: 80rem;
   margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   line-height: 1.6; }
   @media only screen and (max-width: 37.5em) {
     .heading-sec__sub {
@@ -174,6 +189,7 @@ p > a:active {
   .btn:hover {
     transform: translateY(-3px); }
   .btn--bg {
+    background-color: #009405;
     padding: 1.5rem 8rem;
     font-size: 2rem; }
   .btn--med {
@@ -188,6 +204,12 @@ p > a:active {
     border: 2px solid #009405;
     box-shadow: none;
     padding: calc(1.5rem - 2px) calc(5rem - 2px); }
+  .btn--center {
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem; }
 
 .sec-pad {
   padding: 12rem 0; }
@@ -716,6 +738,15 @@ p > a:active {
     border-radius: 10px;
     font-weight: 600;
     color: #777; }
+  .skills__program {
+    padding: 1rem 2rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1.6rem;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    font-weight: 600;
+    color: #000000; }
 
 .mouse {
   width: 25px;

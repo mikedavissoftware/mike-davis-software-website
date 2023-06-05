@@ -11,4 +11,14 @@
     font-weight: 600;
     color: #777;
   }
+  &__program {
+    padding: 1rem 2rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1.6rem;
+    background: rgba(#ffffff, .3);
+    border-radius: $commonBorderRadius;
+    font-weight: 600;
+    color: #000000;
+  }
 }
