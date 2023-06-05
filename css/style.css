@@ -84,12 +84,12 @@ hr {
   margin-right: auto;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  width: 10%;
-  color: #009405;
+  width: 5%;
+  color: #95734d;
   border-style: solid;
   border-width: 1px;
   border-radius: 3px;
-  border-color: #009405; }
+  border-color: #95734d; }
 
 .heading-primary {
   font-size: 6rem;
@@ -141,7 +141,7 @@ hr {
     top: calc(100% + 1.5rem);
     height: 5px;
     width: 3rem;
-    background: #95734d;
+    background: #009405;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 10px; }
@@ -237,7 +237,7 @@ hr {
   max-height: 120rem;
   position: relative;
   background: url("../../assets/jpeg/hero-image-2-30pc.jpg") rgba(255, 255, 255, 0.7);
-  background-position: right;
+  background-position: center;
   background-size: cover; }
   @media only screen and (max-width: 37.5em) {
     .home-hero {

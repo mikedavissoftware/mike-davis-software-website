@@ -7,7 +7,7 @@
   max-height: 120rem;
   position: relative;
   background: url("../../assets/jpeg/hero-image-2-30pc.jpg") rgba(255, 255, 255, 0.7);
-  background-position: right;
+  background-position: center;
   background-size: cover;
 
   @include respond(phone) {
