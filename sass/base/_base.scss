@@ -79,12 +79,26 @@ p > a:active {
   color: $themeClrSecondary;
 }
 
-hr {
+hr.primary {
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  width: 2.5%;
+  color: $themeClrPrimary;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 3px;
+  border-color: $themeClrPrimary;
+}
+
+hr.secondary {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
   width: 5%;
   color: $themeClrSecondary;
   border-style: solid;

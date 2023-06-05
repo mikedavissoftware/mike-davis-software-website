@@ -30,7 +30,7 @@
   }
 
   &__mb-med {
-    margin-bottom: 9rem;
+    // margin-bottom: 9rem;
     @include respond(tab-port) {
       margin-bottom: 8rem;
     }
@@ -43,7 +43,7 @@
     letter-spacing: 1px;
     letter-spacing: 3px;
     text-align: center;
-    margin-bottom: 3.5rem;
+    margin-bottom: 4rem;
     position: relative;
     &--lt {
       color: #fff;
@@ -77,8 +77,8 @@
     font-weight: 500;
     max-width: 80rem;
     margin: auto;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    // margin-top: 1rem;
+    // margin-bottom: 1rem;
     line-height: 1.6;
 
     @include respond(phone) {
@@ -105,7 +105,7 @@
 
 .btn {
   background: #fff;
-  color: #333;
+  color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 2px;
   display: inline-block;
@@ -148,11 +148,23 @@
 }
 
 .sec-pad {
-  padding: 12rem 0;
+  padding: 9rem 0 6rem 0;
   @include respond(tab-port) {
-    padding: 8rem 0;
+    padding: 6rem 0 4rem 0;
   }
 }
+// .sec-pad-before {
+//   padding: 12rem 0 0 0;
+//   @include respond(tab-port) {
+//     padding: 8rem 0 0 0;
+//   }
+// }
+// .sec-pad-after {
+//   padding: 0 0 12rem 0;
+//   @include respond(tab-port) {
+//     padding: 0 0 8rem 0;
+//   }
+// }
 
 .text-primary {
   color: #fff;
