@@ -116,7 +116,7 @@
       }
     }
     &-subtitle {
-      color: rgb(131, 131, 131);
+      color: rgb(73, 73, 73);
       font-weight: 700;
       font-size: 2rem;
       margin-top: 1rem;
@@ -145,11 +145,13 @@
 
 
 .skills {
+  display: flex;
+  flex-wrap: wrap;
   background: rgb(255, 255, 255);
   &__content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10rem;
+    // display: grid;
+    // grid-template-columns: 1fr 1fr;
+    grid-column-gap: 6rem;
     @include respond(tab-port) {
       grid-template-columns: 1fr;
       grid-gap: 8rem;
@@ -162,7 +164,7 @@
       }
     }
     &-subtitle {
-      color: rgb(169, 169, 169);
+      color: rgb(75, 75, 75);
       font-weight: 700;
       font-size: 2rem;
       margin-top: 1rem;
@@ -186,6 +188,26 @@
         margin-bottom: 4rem;
       }
     }
+  }
+  &__skill {
+    padding: 1rem 2rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1.6rem;
+    background: #e8e8e8;
+    border-radius: $commonBorderRadius;
+    font-weight: 600;
+    color: #000000;
+  }
+  &__program {
+    padding: 1rem 2rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1.6rem;
+    background: #626262;
+    border-radius: $commonBorderRadius;
+    font-weight: 600;
+    color: rgb(245, 245, 245);
   }
 }
 

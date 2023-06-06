@@ -73,7 +73,7 @@ p > a:visited {
   color: $themeClrPrimary;
 }
 p > a:hover {
-  color: white;
+  color: #00de07;
 }
 p > a:active {
   color: $themeClrSecondary;
@@ -105,4 +105,64 @@ hr.secondary {
   border-width: 1px;
   border-radius: 3px;
   border-color: $themeClrSecondary;
+}
+
+@-webkit-keyframes fadeIn {
+  from { opacity: 0; }
+    to { opacity: 1; }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+    to { opacity: 1; }
+}
+@-webkit-keyframes slideIn {
+  from { opacity: 0; -webkit-transform: translateY(-100%); }
+    to { opacity: 1; -webkit-transform: translateY(0%); }
+}
+@keyframes slideIn {
+  from { opacity: 0; -webkit-transform: translateY(-100%); }
+    to { opacity: 1; -webkit-transform: translateY(0%); }
+}
+
+.accordion {
+  background-color: #eee;
+  // color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  // transition: 0.4s;
+  margin-bottom: 1rem;
+}
+
+.active, .accordion:hover {
+  background-color: #dddddd;
+}
+
+.active {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  // background-color: #eee;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #dddddd;
+  transition: opacity 0.5s;
+  // background-color: white;
+  // overflow: hidden;
+  margin-bottom: 1rem;
+  -webkit-animation: fadeIn 0.5s;
 }
