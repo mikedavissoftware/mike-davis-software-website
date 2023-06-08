@@ -146,6 +146,7 @@ hr.secondary {
 
 .accordion.active, .accordion:hover {
   background-color: #dddddd;
+  transition: .35s;
 }
 
 .accordion.active {

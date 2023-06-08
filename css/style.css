@@ -140,7 +140,8 @@ hr.secondary {
     margin-left: 5px; }
 
 .accordion.active, .accordion:hover {
-  background-color: #dddddd; }
+  background-color: #dddddd;
+  transition: .35s; }
 
 .accordion.active {
   border-bottom-left-radius: 0px;
