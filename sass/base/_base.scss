@@ -140,6 +140,13 @@ hr.secondary {
   font-size: 15px;
   // transition: 0.4s;
   margin-bottom: 1rem;
+  &::after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
 }
 
 .active, .accordion:hover {
@@ -149,6 +156,12 @@ hr.secondary {
 .active {
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
+  &::after {
+    content: '\2212';
+    color: #777;
+    font-weight: bold;
+    float: right;
+  }
 }
 
 .panel {
