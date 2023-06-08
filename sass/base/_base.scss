@@ -140,6 +140,9 @@ hr.secondary {
   font-size: 15px;
   // transition: 0.4s;
   margin-bottom: 1rem;
+  -webkit-transition: border-radius .15s;
+  transition: border-radius .15s;
+
   &::after {
     content: '\002B';
     color: #777;
@@ -149,11 +152,11 @@ hr.secondary {
   }
 }
 
-.active, .accordion:hover {
+.accordion.active, .accordion:hover {
   background-color: #dddddd;
 }
 
-.active {
+.accordion.active {
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
   &::after {
