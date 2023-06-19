@@ -595,9 +595,8 @@ hr.secondary {
 
 .project-cs-hero {
   color: #fff;
-  background: linear-gradient(to right, rgba(0, 148, 5, 0.8), rgba(0, 148, 5, 0.8)), url(../../assets/svg/common-bg.svg);
+  background: linear-gradient(to right, rgba(0, 148, 5, 0.5), rgba(0, 148, 5, 0.5));
   background-size: cover;
-  background-position: center;
   position: relative; }
   @media only screen and (max-width: 37.5em) {
     .project-cs-hero {
@@ -620,6 +619,16 @@ hr.secondary {
   .project-cs-hero__cta {
     margin-top: 5rem;
     text-align: center; }
+  .project-cs-hero__video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    max-width: 100%; }
+    @media only screen and (max-width: 37.5em) {
+      .project-cs-hero__video {
+        min-height: 100vh;
+        width: auto; } }
 
 .project-details__content {
   padding: 8rem 0;
