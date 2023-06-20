@@ -595,9 +595,12 @@ hr.secondary {
 
 .project-cs-hero {
   color: #fff;
-  background: linear-gradient(to right, rgba(0, 148, 5, 0.5), rgba(0, 148, 5, 0.5));
+  background: linear-gradient(to right, rgba(0, 148, 5, 0.7), rgba(0, 148, 5, 0.7));
   background-size: cover;
-  position: relative; }
+  position: relative;
+  height: 100vh;
+  min-height: 80rem;
+  max-height: 120rem; }
   @media only screen and (max-width: 37.5em) {
     .project-cs-hero {
       height: unset;
@@ -663,7 +666,7 @@ hr.secondary {
     margin-bottom: 2rem; }
 
 .project-details__tools-used {
-  margin: 0 0 7rem 0; }
+  margin-bottom: 7rem; }
   .project-details__tools-used-list {
     display: flex;
     flex-wrap: wrap; }

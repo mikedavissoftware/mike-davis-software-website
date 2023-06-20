@@ -2,13 +2,18 @@
   color: #fff;
   background: linear-gradient(
       to right,
-      rgba($themeClrPrimary, 0.5),
-      rgba($themeClrPrimary, 0.5)
+      rgba($themeClrPrimary, 0.7),
+      rgba($themeClrPrimary, 0.7)
     ),;
     // url(../../assets/svg/common-bg.svg);
   background-size: cover;
   // background-position: center;
   position: relative;
+
+  height: 100vh;
+
+  min-height: 80rem;
+  max-height: 120rem;
 
   @include respond(phone) {
     height: unset;
@@ -96,7 +101,7 @@
     }
   }
   &__tools-used {
-    margin: 0 0 7rem 0;
+    margin-bottom: 7rem;
 
     &-list {
       display: flex;
