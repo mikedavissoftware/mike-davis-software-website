@@ -47,14 +47,16 @@
     right: 0;
     bottom: 0;
     z-index: -1;
-    max-width: 100%;
+    // max-width: 100%;
+    min-height: 100%;
+    margin: 0 auto 0 auto;
     
     @media (min-aspect-ratio: 16/9){
 
     }
 
     @include respond(phone) {
-      min-height: 100vh;
+      // min-height: 100vh;
       width: auto;
 
     }

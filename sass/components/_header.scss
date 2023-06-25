@@ -8,10 +8,29 @@
 
   &__content {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
     padding: 1rem 5rem;
     @include respond(tab-port) {
+      // grid-template-columns: auto 30% 20%;
+      display: grid;
+      padding: 0 2rem;
+      grid-template-columns: 16rem auto 38rem;
+
+    }
+    @include respond(phone) {
+      display: grid;
+      grid-template-columns: 16rem auto 4rem;
+    }
+  }
+
+  &__social-cont {
+    display: none;
+    padding: 0 0 0 2rem;
+    @include respond(tab-port) {
+      display: inline-block;
+    }
+    @include respond(phone) {
       padding: 0 2rem;
     }
   }
@@ -152,11 +171,5 @@
 
   &__sm-menu-link-last {
     border-bottom: 0;
-  }
-
-  &__social-cont {
-    display: flex;
-    // margin-bottom: auto;
-    margin-left: 3rem;
   }
 }

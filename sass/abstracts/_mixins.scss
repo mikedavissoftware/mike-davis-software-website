@@ -16,7 +16,7 @@ Inside media queries 1em is always 16px i.e 1em = 16px at every screen size only
 
 @mixin respond($breakpoint) {
   @if $breakpoint == phone {
-    @media only screen and (max-width: 37.5em) {
+    @media only screen and (max-width: 42.5em) {
       @content;
     } //600px
   }
