@@ -221,7 +221,7 @@ hr.secondary {
 
 .heading-sec__sub {
   display: block;
-  text-align: center;
+  text-align: left;
   color: #777;
   font-size: 2rem;
   font-weight: 500;
